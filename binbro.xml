@@ -7,11 +7,12 @@
   <cmake_config os="win" name="default" args="Visual Studio 16 2019 Win64 -Dgtest_force_shared_crt=ON"/>
 
   <!-- core -->
-  <project path="core/binbro" name="ivanlopit/binbro" remote="github" />
+  <project path="core/binbro" name="ivanlopit/binbro"/>
 
   <!-- utils -->
   <project path="configure/grce" name="ivanlopit/grce"/>
 
   <!-- thrirdpary dependencies -->
-  <project path="thrirdparty/gtests" name="google/googletest" remote="github" revision="refs/tags/release-1.10.0" />
+  <project path="thrirdparty/gtests" name="google/googletest" revision="refs/tags/release-1.10.0"/>
+  <project path="thrirdparty/crypto" name="WaterJuice/WjCryptLib"/>
 </manifest>
