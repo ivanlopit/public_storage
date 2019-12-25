@@ -14,5 +14,4 @@
 
   <!-- thrirdpary dependencies -->
   <project path="thrirdparty/gtests" name="google/googletest" revision="refs/tags/release-1.10.0"/>
-  <project path="thrirdparty/crypto" name="WaterJuice/WjCryptLib"/>
 </manifest>
